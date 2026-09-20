@@ -1,0 +1,61 @@
+.container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-image: url(pics/jonathan-bean-sbZU1j31ggE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 25%;
+    margin-right: 15%;
+    font-size: 18px;
+    cursor: pointer;
+}
+button{
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: rgb(180, 178, 178);
+    
+}
+.log{
+    margin-right: 35px;
+}
+h2{
+    margin-left: 10px;
+}
+.pic{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.picture{
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 25px;
+    margin-top: 0;
+}
+.author{
+    width: 50px;
+}
+.details{
+    margin-left: 70px;
+}
+.video-preview{
+    display: inline-block;
+}
