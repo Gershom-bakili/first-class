@@ -7,16 +7,26 @@ ul{
     margin-left: 30%;
     padding-top: 10px;
 }
-li{
 
-}
 nav{
     display: flex;
     flex-direction: row;
 }
-button{
-    margin-left: 10%;
+.sign,.login{
+    margin-left: 17%;
+    margin-top: 20px;
+    height: 0;
+    width: 75px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px;
+
 }
 .login{
-    margin-left: 100px;
+    margin-left: 0;
+    margin-left: 40px;
+}
+input{
+    margin-left: 75%;
+    margin-top: 30px;
 }
